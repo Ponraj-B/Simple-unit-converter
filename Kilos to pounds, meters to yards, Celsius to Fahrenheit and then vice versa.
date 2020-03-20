@@ -1,0 +1,25 @@
+print("enter 1 for convert kilo to pounds")
+print("enter 2 for convert metres to yards")
+print("enter 3 for  covert celcius to farenhit")
+print("enter 4 for convert farenhhit to  celcius")
+a=int(input())
+if(a==1):
+  print("enter the kilo range ")
+  kilo=float(input())
+  pound=2.20462*kilo
+  print("%.6f"%pound)
+elif(a==2):
+  print("enter the metre range")
+  meter=float(input())
+  yards=1.09361*metre
+  print(%.4f"%yards)
+elif(a==3):
+  print("enter the celcius range")
+  celcius=float(input())
+  farenheit=(9/5)*celcius+32
+  print(".6f"%farenheit)
+elif(a==4):
+  print("enter the farenheit range")
+  farenheit=float(input())
+  celcius=(farenheit-32)*(5/9)
+  print("%.4f"%celcius)
